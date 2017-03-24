@@ -1,0 +1,24 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yancyknight/socketio-demos.git"
+  },
+  "author": "Yancy Knight",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yancyknight/socketio-demos/issues"
+  },
+  "homepage": "https://github.com/yancyknight/socketio-demos#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "path": "^0.12.7",
+    "socket.io": "^1.7.3"
+  }
+}
