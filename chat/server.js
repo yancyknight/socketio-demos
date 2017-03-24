@@ -36,6 +36,12 @@ io.on('connection', function(socket) {
 
   })
 
+  socket.on('send-like', function(data) {
+    console.log(data);
+    socket.broadcast.to(data.like).emit('user-liked', data);
+
+  })
+
 });
 
 server.listen(port, function() {
